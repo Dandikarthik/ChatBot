@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/Dandikarthik/ChatBot_AI/settings/pages",
+  "homepage": "https://github.com/Dandikarthik/ChatBot",
   "name": "vite-react-typescript-starter",
   "private": true,
   "version": "0.0.0",
@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "npx vite",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "build": "npx vite build",
     "lint": "eslint .",
     "preview": "npx vite preview"
